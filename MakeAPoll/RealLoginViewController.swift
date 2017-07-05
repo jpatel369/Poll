@@ -17,19 +17,7 @@ class RealLoginViewController: UIViewController{
         override func viewDidLoad() {
             super.viewDidLoad()
             
-            //Jay changed this on his branch
-            
-            //Jay changed second time
-            
-            //Jay changed third time
-            
-            //Master change
-            
-            //another master change
-            
-            //Master change 3
-            
-            //Change 4
+            //New repo
             
             // Do any additional setup after loading the view, typically from a nib.
         }
