@@ -14,9 +14,8 @@
 		07434DB11F0C3CDB007E5502 /* Login.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 07434DB01F0C3CDB007E5502 /* Login.storyboard */; };
 		166EA8600FA3EEEF21884857 /* Pods_MakeAPoll.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 181A630F3FF300CDF6C227F9 /* Pods_MakeAPoll.framework */; };
 		B6B68C951F0D680300BFA56E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B6B68C941F0D680300BFA56E /* Main.storyboard */; };
-		B6B68CB71F0D953100BFA56E /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6B68CB41F0D953100BFA56E /* HomeViewController.swift */; };
-		B6B68CB81F0D953100BFA56E /* ManageAccountController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6B68CB51F0D953100BFA56E /* ManageAccountController.swift */; };
 		B6B68CB91F0D953100BFA56E /* RealLoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6B68CB61F0D953100BFA56E /* RealLoginViewController.swift */; };
+		B6C31DF61F0DAFDE00189B2E /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6C31DF51F0DAFDE00189B2E /* HomeViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -31,9 +30,8 @@
 		2D0DC673A80A4260B48A4A3A /* Pods-MakeAPoll.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MakeAPoll.debug.xcconfig"; path = "Pods/Target Support Files/Pods-MakeAPoll/Pods-MakeAPoll.debug.xcconfig"; sourceTree = "<group>"; };
 		6DA6B24DDBBBFCBB2F953C7B /* Pods-MakeAPoll.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MakeAPoll.release.xcconfig"; path = "Pods/Target Support Files/Pods-MakeAPoll/Pods-MakeAPoll.release.xcconfig"; sourceTree = "<group>"; };
 		B6B68C941F0D680300BFA56E /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
-		B6B68CB41F0D953100BFA56E /* HomeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = HomeViewController.swift; path = MakeAPoll/HomeViewController.swift; sourceTree = "<group>"; };
-		B6B68CB51F0D953100BFA56E /* ManageAccountController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ManageAccountController.swift; path = MakeAPoll/ManageAccountController.swift; sourceTree = "<group>"; };
 		B6B68CB61F0D953100BFA56E /* RealLoginViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = RealLoginViewController.swift; path = MakeAPoll/RealLoginViewController.swift; sourceTree = "<group>"; };
+		B6C31DF51F0DAFDE00189B2E /* HomeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -108,10 +106,9 @@
 		B6B68C841F0D492F00BFA56E /* View Cotrollers */ = {
 			isa = PBXGroup;
 			children = (
-				B6B68CB41F0D953100BFA56E /* HomeViewController.swift */,
-				B6B68CB51F0D953100BFA56E /* ManageAccountController.swift */,
 				B6B68CB61F0D953100BFA56E /* RealLoginViewController.swift */,
 				07434D9D1F0C1D61007E5502 /* ViewController.swift */,
+				B6C31DF51F0DAFDE00189B2E /* HomeViewController.swift */,
 			);
 			name = "View Cotrollers";
 			path = ..;
@@ -242,11 +239,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B6B68CB81F0D953100BFA56E /* ManageAccountController.swift in Sources */,
 				07434D9E1F0C1D61007E5502 /* ViewController.swift in Sources */,
 				07434D9C1F0C1D61007E5502 /* AppDelegate.swift in Sources */,
 				B6B68CB91F0D953100BFA56E /* RealLoginViewController.swift in Sources */,
-				B6B68CB71F0D953100BFA56E /* HomeViewController.swift in Sources */,
+				B6C31DF61F0DAFDE00189B2E /* HomeViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
