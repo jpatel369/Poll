@@ -77,8 +77,8 @@
                     </view>
                     <navigationItem key="navigationItem" id="2MZ-0C-c9d"/>
                     <connections>
-                        <outlet property="loginButton" destination="o0e-b0-md5" id="O3o-kf-HCx"/>
-                        <outlet property="loginButtonTapped" destination="o0e-b0-md5" id="XC6-IU-UYk"/>
+                        <outlet property="loginButton" destination="o0e-b0-md5" id="Z8W-z4-Krb"/>
+                        <outlet property="loginButtonTapped" destination="o0e-b0-md5" id="Z8A-Sb-bdg"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="HCf-jf-p0Z" userLabel="First Responder" sceneMemberID="firstResponder"/>
