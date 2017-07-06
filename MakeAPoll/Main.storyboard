@@ -1,9 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<<<<<<< HEAD
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="12121" systemVersion="16F73" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="zNa-0o-rIE">
-=======
 <document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="12121" systemVersion="16F73" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="P6a-Ty-qrS">
->>>>>>> swiftySyedBranch
     <device id="retina4_7" orientation="portrait">
         <adaptation id="fullscreen"/>
     </device>
@@ -17,7 +13,7 @@
         <!--Manage Account View Controller-->
         <scene sceneID="SMR-gP-ld0">
             <objects>
-                <viewController id="JHD-QK-3CK" customClass="ManageAccountViewController" customModule="MakeAPoll" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="JHD-QK-3CK" customClass="ManageAccountViewController" customModule="MakeAPoll" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="z4z-Ek-L8h"/>
                         <viewControllerLayoutGuide type="bottom" id="nye-Pt-Kgb"/>
@@ -26,105 +22,6 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-<<<<<<< HEAD
-                            <navigationBar contentMode="scaleToFill" ambiguous="YES" translatesAutoresizingMaskIntoConstraints="NO" id="ELy-aI-vYS">
-                                <rect key="frame" x="0.0" y="0.0" width="375" height="44"/>
-                                <items>
-                                    <navigationItem title="Settings" id="aWF-eX-iUl">
-                                        <barButtonItem key="backBarButtonItem" title="Back" id="lHl-JS-P8w"/>
-                                    </navigationItem>
-                                </items>
-                            </navigationBar>
-                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" alignment="top" spacing="10" translatesAutoresizingMaskIntoConstraints="NO" id="Mhj-K7-mfJ">
-                                <rect key="frame" x="16" y="72" width="343" height="57"/>
-                                <subviews>
-                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text=" Change Name" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Uqa-x8-k5A">
-                                        <rect key="frame" x="0.0" y="0.0" width="113.5" height="17"/>
-                                        <fontDescription key="fontDescription" name="Symbol" family="Symbol" pointSize="17"/>
-                                        <nil key="textColor"/>
-                                        <nil key="highlightedColor"/>
-                                    </label>
-                                    <stackView opaque="NO" contentMode="scaleToFill" spacing="10" translatesAutoresizingMaskIntoConstraints="NO" id="aDA-NX-vbZ">
-                                        <rect key="frame" x="0.0" y="27" width="343" height="30"/>
-                                        <subviews>
-                                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" ambiguous="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="Aiq-XM-2iN">
-                                                <rect key="frame" x="0.0" y="0.0" width="262" height="30"/>
-                                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                                                <color key="tintColor" white="0.95011393229999996" alpha="1" colorSpace="calibratedWhite"/>
-                                                <nil key="textColor"/>
-                                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
-                                                <textInputTraits key="textInputTraits"/>
-                                            </textField>
-                                            <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ihH-yd-PVJ">
-                                                <rect key="frame" x="272" y="0.0" width="71" height="30"/>
-                                                <color key="backgroundColor" red="1" green="0.53274958872908251" blue="0.33733400373651756" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                                <fontDescription key="fontDescription" type="system" pointSize="16"/>
-                                                <inset key="contentEdgeInsets" minX="7" minY="0.0" maxX="7" maxY="0.0"/>
-                                                <state key="normal" title="Change">
-                                                    <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
-                                                </state>
-                                                <connections>
-                                                    <action selector="changeNameButtonTapped:" destination="JHD-QK-3CK" eventType="touchUpInside" id="rN1-7v-She"/>
-                                                </connections>
-                                            </button>
-                                        </subviews>
-                                    </stackView>
-                                </subviews>
-                                <constraints>
-                                    <constraint firstAttribute="trailing" secondItem="aDA-NX-vbZ" secondAttribute="trailing" id="JSb-tk-kCY"/>
-                                </constraints>
-                            </stackView>
-                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" alignment="top" spacing="10" translatesAutoresizingMaskIntoConstraints="NO" id="0pJ-2z-aTE">
-                                <rect key="frame" x="16" y="150" width="343" height="57"/>
-                                <subviews>
-                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text=" Change Password" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="6zT-ND-NaL">
-                                        <rect key="frame" x="0.0" y="0.0" width="343" height="17"/>
-                                        <fontDescription key="fontDescription" name="Symbol" family="Symbol" pointSize="17"/>
-                                        <nil key="textColor"/>
-                                        <nil key="highlightedColor"/>
-                                    </label>
-                                    <stackView opaque="NO" contentMode="scaleToFill" spacing="10" translatesAutoresizingMaskIntoConstraints="NO" id="IK8-4z-DmW">
-                                        <rect key="frame" x="0.0" y="27" width="343" height="30"/>
-                                        <subviews>
-                                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" ambiguous="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="hnh-E8-nr2">
-                                                <rect key="frame" x="0.0" y="0.0" width="262" height="30"/>
-                                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                                                <color key="tintColor" white="0.95011393229999996" alpha="1" colorSpace="calibratedWhite"/>
-                                                <nil key="textColor"/>
-                                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
-                                                <textInputTraits key="textInputTraits"/>
-                                            </textField>
-                                            <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Cre-57-Iu7">
-                                                <rect key="frame" x="272" y="0.0" width="71" height="30"/>
-                                                <color key="backgroundColor" red="1" green="0.5327495887" blue="0.3373340037" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                                <fontDescription key="fontDescription" type="system" pointSize="16"/>
-                                                <inset key="contentEdgeInsets" minX="7" minY="0.0" maxX="7" maxY="0.0"/>
-                                                <state key="normal" title="Change">
-                                                    <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
-                                                </state>
-                                            </button>
-                                        </subviews>
-                                    </stackView>
-                                </subviews>
-                                <constraints>
-                                    <constraint firstAttribute="trailing" secondItem="6zT-ND-NaL" secondAttribute="trailing" id="E6O-kT-2gy"/>
-                                    <constraint firstItem="6zT-ND-NaL" firstAttribute="leading" secondItem="0pJ-2z-aTE" secondAttribute="leading" id="OIE-JE-SQi"/>
-                                    <constraint firstAttribute="trailing" secondItem="IK8-4z-DmW" secondAttribute="trailing" id="jLR-vU-ZdK"/>
-                                </constraints>
-                            </stackView>
-                        </subviews>
-                        <color key="backgroundColor" red="0.8302044897560682" green="0.87250360945841421" blue="0.9225491751269036" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                        <constraints>
-                            <constraint firstItem="0pJ-2z-aTE" firstAttribute="leading" secondItem="CUh-kH-S1z" secondAttribute="leadingMargin" id="0mq-E1-8v7"/>
-                            <constraint firstItem="nye-Pt-Kgb" firstAttribute="top" secondItem="0pJ-2z-aTE" secondAttribute="bottom" constant="411" id="3Xv-jJ-1Qd"/>
-                            <constraint firstAttribute="trailingMargin" secondItem="0pJ-2z-aTE" secondAttribute="trailing" id="63U-Ic-Zhh"/>
-                            <constraint firstItem="nye-Pt-Kgb" firstAttribute="top" secondItem="Mhj-K7-mfJ" secondAttribute="bottom" constant="489" id="Il7-RC-8jb"/>
-                            <constraint firstItem="Mhj-K7-mfJ" firstAttribute="top" secondItem="ELy-aI-vYS" secondAttribute="bottom" constant="28" id="Lk2-WU-3Us"/>
-                            <constraint firstAttribute="trailingMargin" secondItem="Mhj-K7-mfJ" secondAttribute="trailing" id="VMV-fO-45Z"/>
-                            <constraint firstItem="0pJ-2z-aTE" firstAttribute="top" secondItem="Mhj-K7-mfJ" secondAttribute="bottom" constant="21" id="WLP-Iq-NaJ"/>
-                            <constraint firstItem="Mhj-K7-mfJ" firstAttribute="leading" secondItem="CUh-kH-S1z" secondAttribute="leadingMargin" id="gEp-kK-vtg"/>
-                        </constraints>
-=======
                             <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" selectionStyle="default" indentationWidth="10" translatesAutoresizingMaskIntoConstraints="NO" id="87p-Ns-t0Y">
                                 <rect key="frame" x="52" y="238" width="375" height="44"/>
                                 <autoresizingMask key="autoresizingMask"/>
@@ -135,20 +32,14 @@
                             </tableViewCell>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
->>>>>>> swiftySyedBranch
                     </view>
-                    <tabBarItem key="tabBarItem" tag="1" title="" image="account-icon2" id="FK1-eM-5x1">
-                        <inset key="imageInsets" minX="53" minY="35" maxX="53" maxY="16"/>
+                    <tabBarItem key="tabBarItem" title="" image="account-icon2" id="FK1-eM-5x1">
+                        <inset key="imageInsets" minX="50" minY="35" maxX="50" maxY="15"/>
                     </tabBarItem>
-                    <connections>
-                        <outlet property="changeNameButton" destination="ihH-yd-PVJ" id="fGf-vY-aST"/>
-                        <outlet property="changePasswordButton" destination="Cre-57-Iu7" id="EsU-BQ-SNq"/>
-                        <outlet property="changePasswordButtonTapped" destination="Cre-57-Iu7" id="Bn3-dQ-igp"/>
-                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="QeQ-jh-lin" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-591.20000000000005" y="337.78110944527737"/>
+            <point key="canvasLocation" x="-591" y="355"/>
         </scene>
         <!--Home View Controller-->
         <scene sceneID="pMB-Wq-ogT">

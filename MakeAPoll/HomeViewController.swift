@@ -9,13 +9,7 @@
 import Foundation
 import UIKit
 
-<<<<<<< HEAD
-
-
-class HomeViewController: UIViewController
-=======
 class HomeViewController: UITableViewController
->>>>>>> swiftySyedBranch
 {
     
     @IBOutlet weak var addPollbutton: UIBarButtonItem!
