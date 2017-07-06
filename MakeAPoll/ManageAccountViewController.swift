@@ -10,6 +10,15 @@ import UIKit
 
 class ManageAccountViewController: UIViewController {
 
+    @IBOutlet weak var changeNameButton: UIButton!
+    
+    @IBAction func changeNameButtonTapped(_ sender: Any) {
+    }
+    
+    @IBOutlet weak var changePasswordButton: UIButton!
+    
+    @IBOutlet weak var changePasswordButtonTapped: UIButton!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
 
