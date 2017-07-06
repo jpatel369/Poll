@@ -86,7 +86,7 @@
 				07434D9B1F0C1D61007E5502 /* AppDelegate.swift */,
 				B6036B121F0EA95D00326AB3 /* Models */,
 				B6C31DF81F0DDF7A00189B2E /* Supporting Files */,
-				B6B68C841F0D492F00BFA56E /* View Controllers */,
+				B6B68C841F0D492F00BFA56E /* View Cotrollers */,
 				07434DAF1F0C3CBE007E5502 /* Storyboards */,
 				07434DA21F0C1D61007E5502 /* Assets.xcassets */,
 			);
@@ -121,7 +121,6 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-<<<<<<< HEAD
 		B6036B121F0EA95D00326AB3 /* Models */ = {
 			isa = PBXGroup;
 			children = (
@@ -132,9 +131,6 @@
 			sourceTree = "<group>";
 		};
 		B6B68C841F0D492F00BFA56E /* View Cotrollers */ = {
-=======
-		B6B68C841F0D492F00BFA56E /* View Controllers */ = {
->>>>>>> swiftySyedBranch
 			isa = PBXGroup;
 			children = (
 				B61A95DA1F0DF0C1008E6431 /* ManageAccountViewController.swift */,
@@ -143,7 +139,7 @@
 				07434D9D1F0C1D61007E5502 /* ViewController.swift */,
 				B6036B151F0EB1CE00326AB3 /* WelcomeViewController.swift */,
 			);
-			name = "View Controllers";
+			name = "View Cotrollers";
 			path = ..;
 			sourceTree = "<group>";
 		};
