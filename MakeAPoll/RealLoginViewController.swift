@@ -11,6 +11,8 @@ import UIKit
 import FirebaseAuth
 import FirebaseAuthUI
 
+
+typealias FIRUser = FirebaseAuth.User
 class RealLoginViewController: UIViewController{
     @IBOutlet weak var loginButton: UIButton!
         
@@ -26,25 +28,24 @@ class RealLoginViewController: UIViewController{
             UIApplication.shared.statusBarStyle = .lightContent
         }
         
-    @IBOutlet weak var loginButtonTapped: UIButton!
-        override func didReceiveMemoryWarning() {
-            
-            guard let authUI = FUIAuth.defaultAuthUI()
-                else { return }
-            
-            authUI.delegate = self
-            
-            let authViewController = authUI.authViewController()
-            present(authViewController, animated: true)
-            
-            super.didReceiveMemoryWarning()
-            // Dispose of any resources that can be recreated.
-        }
+    @IBAction func loginButtonTapped(_ sender: Any) {
         
+        guard let authUI = FUIAuth.defaultAuthUI()
+            else { return }
+        
+        
+        authUI.delegate = self
+        
+        
+        let authViewController = authUI.authViewController()
+        present(authViewController, animated: true)
+    }
+   
+    
 }
 
 extension RealLoginViewController: FUIAuthDelegate {
-    func authUI(_ authUI: FUIAuth, didSignInWith user: User?, error: Error?) {
+    func authUI(_ authUI: FUIAuth, didSignInWith user: FIRUser?, error: Error?) {
         if let error = error {
             assertionFailure("Error signing in: \(error.localizedDescription)")
             return
