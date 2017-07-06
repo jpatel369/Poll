@@ -1,9 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<<<<<<< HEAD
 <document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="12121" systemVersion="16F73" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="zNa-0o-rIE">
-=======
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="12121" systemVersion="16F73" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="P6a-Ty-qrS">
->>>>>>> f34c59757887f135bfd17c99c790cbb24813640a
     <device id="retina4_7" orientation="portrait">
         <adaptation id="fullscreen"/>
     </device>
@@ -17,7 +13,7 @@
         <!--Manage Account View Controller-->
         <scene sceneID="SMR-gP-ld0">
             <objects>
-                <viewController id="JHD-QK-3CK" customClass="ManageAccountViewController" customModule="MakeAPoll" sceneMemberID="viewController">
+                <viewController id="JHD-QK-3CK" customClass="ManageAccountViewController" customModule="MakeAPoll" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="z4z-Ek-L8h"/>
                         <viewControllerLayoutGuide type="bottom" id="nye-Pt-Kgb"/>
@@ -26,7 +22,6 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-<<<<<<< HEAD
                             <navigationBar contentMode="scaleToFill" ambiguous="YES" translatesAutoresizingMaskIntoConstraints="NO" id="ELy-aI-vYS">
                                 <rect key="frame" x="0.0" y="0.0" width="375" height="44"/>
                                 <items>
@@ -124,26 +119,19 @@
                             <constraint firstItem="0pJ-2z-aTE" firstAttribute="top" secondItem="Mhj-K7-mfJ" secondAttribute="bottom" constant="21" id="WLP-Iq-NaJ"/>
                             <constraint firstItem="Mhj-K7-mfJ" firstAttribute="leading" secondItem="CUh-kH-S1z" secondAttribute="leadingMargin" id="gEp-kK-vtg"/>
                         </constraints>
-=======
-                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" selectionStyle="default" indentationWidth="10" translatesAutoresizingMaskIntoConstraints="NO" id="87p-Ns-t0Y">
-                                <rect key="frame" x="52" y="238" width="375" height="44"/>
-                                <autoresizingMask key="autoresizingMask"/>
-                                <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="87p-Ns-t0Y" id="jY8-v7-ugw">
-                                    <rect key="frame" x="0.0" y="0.0" width="375" height="44"/>
-                                    <autoresizingMask key="autoresizingMask"/>
-                                </tableViewCellContentView>
-                            </tableViewCell>
-                        </subviews>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
->>>>>>> f34c59757887f135bfd17c99c790cbb24813640a
                     </view>
-                    <tabBarItem key="tabBarItem" title="" image="account-icon2" id="FK1-eM-5x1">
-                        <inset key="imageInsets" minX="50" minY="35" maxX="50" maxY="15"/>
+                    <tabBarItem key="tabBarItem" tag="1" title="" image="account-icon2" id="FK1-eM-5x1">
+                        <inset key="imageInsets" minX="53" minY="35" maxX="53" maxY="16"/>
                     </tabBarItem>
+                    <connections>
+                        <outlet property="changeNameButton" destination="ihH-yd-PVJ" id="fGf-vY-aST"/>
+                        <outlet property="changePasswordButton" destination="Cre-57-Iu7" id="EsU-BQ-SNq"/>
+                        <outlet property="changePasswordButtonTapped" destination="Cre-57-Iu7" id="Bn3-dQ-igp"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="QeQ-jh-lin" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-591" y="355"/>
+            <point key="canvasLocation" x="-591.20000000000005" y="337.78110944527737"/>
         </scene>
         <!--Home View Controller-->
         <scene sceneID="pMB-Wq-ogT">

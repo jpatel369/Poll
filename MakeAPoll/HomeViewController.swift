@@ -9,13 +9,9 @@
 import Foundation
 import UIKit
 
-<<<<<<< HEAD
 
 
 class HomeViewController: UIViewController
-=======
-class HomeViewController: UITableViewController
->>>>>>> f34c59757887f135bfd17c99c790cbb24813640a
 {
     
 }
