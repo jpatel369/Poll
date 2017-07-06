@@ -11,9 +11,6 @@
 		07434D9E1F0C1D61007E5502 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07434D9D1F0C1D61007E5502 /* ViewController.swift */; };
 		07434DA31F0C1D61007E5502 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 07434DA21F0C1D61007E5502 /* Assets.xcassets */; };
 		166EA8600FA3EEEF21884857 /* Pods_MakeAPoll.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 181A630F3FF300CDF6C227F9 /* Pods_MakeAPoll.framework */; };
-		B6036B141F0EA97400326AB3 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6036B131F0EA97400326AB3 /* User.swift */; };
-		B6036B161F0EB1CE00326AB3 /* WelcomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6036B151F0EB1CE00326AB3 /* WelcomeViewController.swift */; };
-		B6036B1E1F0EE53A00326AB3 /* Storyboard+Utility.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6036B1D1F0EE53A00326AB3 /* Storyboard+Utility.swift */; };
 		B61A95DC1F0DF0C1008E6431 /* ManageAccountViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B61A95DA1F0DF0C1008E6431 /* ManageAccountViewController.swift */; };
 		B61A95DD1F0DF0C1008E6431 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B61A95DB1F0DF0C1008E6431 /* HomeViewController.swift */; };
 		B61A95DF1F0DF396008E6431 /* AdSupport.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B61A95DE1F0DF396008E6431 /* AdSupport.framework */; };
@@ -34,9 +31,6 @@
 		181A630F3FF300CDF6C227F9 /* Pods_MakeAPoll.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MakeAPoll.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		2D0DC673A80A4260B48A4A3A /* Pods-MakeAPoll.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MakeAPoll.debug.xcconfig"; path = "Pods/Target Support Files/Pods-MakeAPoll/Pods-MakeAPoll.debug.xcconfig"; sourceTree = "<group>"; };
 		6DA6B24DDBBBFCBB2F953C7B /* Pods-MakeAPoll.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MakeAPoll.release.xcconfig"; path = "Pods/Target Support Files/Pods-MakeAPoll/Pods-MakeAPoll.release.xcconfig"; sourceTree = "<group>"; };
-		B6036B131F0EA97400326AB3 /* User.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
-		B6036B151F0EB1CE00326AB3 /* WelcomeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WelcomeViewController.swift; sourceTree = "<group>"; };
-		B6036B1D1F0EE53A00326AB3 /* Storyboard+Utility.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Storyboard+Utility.swift"; sourceTree = "<group>"; };
 		B61A95DA1F0DF0C1008E6431 /* ManageAccountViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ManageAccountViewController.swift; path = MakeAPoll/ManageAccountViewController.swift; sourceTree = "<group>"; };
 		B61A95DB1F0DF0C1008E6431 /* HomeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = HomeViewController.swift; path = MakeAPoll/HomeViewController.swift; sourceTree = "<group>"; };
 		B61A95DE1F0DF396008E6431 /* AdSupport.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AdSupport.framework; path = System/Library/Frameworks/AdSupport.framework; sourceTree = SDKROOT; };
@@ -84,7 +78,6 @@
 			isa = PBXGroup;
 			children = (
 				07434D9B1F0C1D61007E5502 /* AppDelegate.swift */,
-				B6036B121F0EA95D00326AB3 /* Models */,
 				B6C31DF81F0DDF7A00189B2E /* Supporting Files */,
 				B6B68C841F0D492F00BFA56E /* View Cotrollers */,
 				07434DAF1F0C3CBE007E5502 /* Storyboards */,
@@ -121,6 +114,7 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
+<<<<<<< HEAD
 		B6036B121F0EA95D00326AB3 /* Models */ = {
 			isa = PBXGroup;
 			children = (
@@ -131,13 +125,15 @@
 			sourceTree = "<group>";
 		};
 		B6B68C841F0D492F00BFA56E /* View Cotrollers */ = {
+=======
+		B6B68C841F0D492F00BFA56E /* View Controllers */ = {
+>>>>>>> f34c59757887f135bfd17c99c790cbb24813640a
 			isa = PBXGroup;
 			children = (
 				B61A95DA1F0DF0C1008E6431 /* ManageAccountViewController.swift */,
 				B61A95DB1F0DF0C1008E6431 /* HomeViewController.swift */,
 				B6B68CB61F0D953100BFA56E /* RealLoginViewController.swift */,
 				07434D9D1F0C1D61007E5502 /* ViewController.swift */,
-				B6036B151F0EB1CE00326AB3 /* WelcomeViewController.swift */,
 			);
 			name = "View Cotrollers";
 			path = ..;
@@ -281,12 +277,9 @@
 			files = (
 				07434D9E1F0C1D61007E5502 /* ViewController.swift in Sources */,
 				07434D9C1F0C1D61007E5502 /* AppDelegate.swift in Sources */,
-				B6036B141F0EA97400326AB3 /* User.swift in Sources */,
-				B6036B1E1F0EE53A00326AB3 /* Storyboard+Utility.swift in Sources */,
 				B6B68CB91F0D953100BFA56E /* RealLoginViewController.swift in Sources */,
 				B61A95DD1F0DF0C1008E6431 /* HomeViewController.swift in Sources */,
 				B61A95DC1F0DF0C1008E6431 /* ManageAccountViewController.swift in Sources */,
-				B6036B161F0EB1CE00326AB3 /* WelcomeViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
